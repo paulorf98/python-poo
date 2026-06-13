@@ -1,6 +1,6 @@
-from estudante import Estudante
-from professor import Professor
-from funcionario import Funcionario
+from models.estudante import Estudante
+from models.professor import Professor
+from models.funcionario import Funcionario
 
 def main():
     e = Estudante('Pedro', 20)

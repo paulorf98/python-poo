@@ -1,6 +1,6 @@
 from rich.table import Table
 from rich.console import Console
-from pessoa import Pessoa
+from models.pessoa import Pessoa
 
 con = Console(force_terminal=True)
 
