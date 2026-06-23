@@ -1,9 +1,9 @@
-from models.pessoa import Pessoa
+from .pessoa import Pessoa
 from rich.table import Table
 from rich.console import Console
 
 
-con = Console(force_terminal=True)
+con = Console()
 
 class Professor(Pessoa):
 

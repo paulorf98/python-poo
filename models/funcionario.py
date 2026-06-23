@@ -1,8 +1,8 @@
 from rich.table import Table
 from rich.console import Console
-from models.pessoa import Pessoa
+from .pessoa import Pessoa
 
-con = Console(force_terminal=True)
+con = Console()
 
 class Funcionario(Pessoa):
 

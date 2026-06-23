@@ -1,6 +1,4 @@
-from models.estudante import Estudante
-from models.professor import Professor
-from models.funcionario import Funcionario
+from system_university.models import Estudante, Professor, Funcionario
 
 def main():
     e = Estudante('Pedro', 20)
